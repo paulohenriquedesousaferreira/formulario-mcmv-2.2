@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f2f5f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 25px;
+    padding-top: 10px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: inline;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.small-text {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 16px;
+}
+
+/* Responsivo */
+@media (max-height: 700px) {
+    body {
+        align-items: flex-start;
+    }
+
+    .form-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
